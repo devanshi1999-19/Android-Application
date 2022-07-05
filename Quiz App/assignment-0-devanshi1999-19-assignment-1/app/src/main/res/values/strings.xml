@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RTPCR Test APP</string>
+    <string name="full_name">Full name</string>
+    <string name="welcome">Welcome to RTPCR-test APP</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="next">Next</string>
+    <string name="clear">Clear</string>
+    <string name="fever">Fever</string>
+    <string name="runningnose">Running Nose</string>
+    <string name="cough">Cough and Sore throat</string>
+    <string name="headBodyAche">Headache and BodyAche</string>
+    <string name="taste">Loss of Taste and Smell</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name :</string>
+    <string name="positive">You are safe. RTPCR test not required</string>
+    <string name="negative">You are UNSAFE. RTPCR test is required</string>
+    <string name="Question">Do you have the following Symptom?</string>
+
+
+</resources>

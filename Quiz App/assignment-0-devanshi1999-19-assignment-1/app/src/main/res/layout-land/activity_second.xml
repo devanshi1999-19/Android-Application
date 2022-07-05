@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="#C6DDEF"
+        android:orientation="vertical"
+        tools:context=".Second_Activity"
+        tools:ignore="ScrollViewSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="132dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="#201E1E"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#272525"
+                android:textStyle="italic">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="663dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symptom1"
+                android:layout_width="170dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/fever"
+                android:textColor="#2B2727"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer1"
+                android:layout_width="496dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#B939CF"
+                android:textStyle="italic">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symptom2"
+                android:layout_width="172dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/runningnose"
+                android:textColor="#100F0F"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#9C27B0"
+                android:textStyle="italic">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symptom3"
+                android:layout_width="173dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/cough"
+                android:textColor="#1B1A1A"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="#9C27B0"
+                android:textStyle="italic">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symptom4"
+                android:layout_width="174dp"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/headBodyAche"
+                android:textColor="#0C0C0C"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="#9C27B0"
+                android:textStyle="italic">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symptom5"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/taste"
+                android:textColor="#222020"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#9C27B0"
+                android:textStyle="italic">
+
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Results" />
+
+        <TextView
+            android:id="@+id/rtpcrresults"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:textColor="#BB180C"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
